@@ -8,20 +8,30 @@
 a	{color: #017acd}
 
 /* コンテナ */
-div#container	{width: 760px;
+div#container	{width: 900px;
 	margin-left: auto;
 	margin-right: auto}
 
 /* ヘッダー */
-header#pageheader	{background-color: #017acd;
-	background-image: url(sky.jpg);
-	padding: 28px 20px 150px}
+header#pageheader	{background: none;
+	padding: 15px 0px 0px}
 
-header#pageheader h1	{margin: 0}
+header#pageheader h1
+	{margin: 0;
+		float: left;
+		font-size: 40px
+		font-weight: normal;}
 
-header#pageheader p	{color: #ffffff;
+header#pageheader h2	{color: #666666;
 	font-size: 0.75em;
-	margin: 0}
+	margin: 0;
+	padding-top: 20px;
+	text-align: right;
+	font-weight:normal;}
+
+nav{clear: both}
+
+
 
 /* パンくずリスト */
 nav#bread	{font-size: 0.75em;
@@ -30,22 +40,23 @@ nav#bread	{font-size: 0.75em;
 
 
 /* コンテンツ */
-article	{width: 564px;
+article	{width: auto;
 	float: right;
 	margin-left: auto;
 	margin-right: auto;
 	margin-bottom: 25px}
 
-article header h1	{background-color: #014471;
-	background-image: url(bar-blue.png);
-	background-repeat: no-repeat;
-	font-size: 0.875em;
-	color: #ffffff;
-	line-height: 28px;
-	padding-left: 6px;
-	margin-top: 0;
-	margin-bottom: 0}
+article header h1	{background: none;
+	font-size: 28px;
+	color: #000000;
+	line-height: 45px;
+	padding-left: 0px;
+	margin-bottom: 0;
+	font-weight: normal}
 
+
+article section{
+	clear: both}
 article section h1	{background-color: #e0e0e0;
 	background-image: url(bar-green.png);
 	background-repeat: no-repeat;
